@@ -1,0 +1,6 @@
+framework module Pods_OTP_Generator {
+  umbrella header "Pods-OTP_Generator-umbrella.h"
+
+  export *
+  module * { export * }
+}
