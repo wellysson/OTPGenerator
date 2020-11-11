@@ -1,6 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-OTP_Generator/Pods-OTP_Generator-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/Base32/Base32.framework
-${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
-${BUILT_PRODUCTS_DIR}/OneTimePassword/OneTimePassword.framework
-${BUILT_PRODUCTS_DIR}/SwiftyRSA/SwiftyRSA.framework
