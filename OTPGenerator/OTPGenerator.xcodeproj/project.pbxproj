@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2EE88A8F52818F68C494757F /* Pods-OTPGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPGenerator.release.xcconfig"; path = "../../MainApp/Pods/Target Support Files/Pods-OTPGenerator/Pods-OTPGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		2EE88A8F52818F68C494757F /* Pods-OTPGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPGenerator.release.xcconfig"; path = "Target Support Files/Pods-OTPGenerator/Pods-OTPGenerator.release.xcconfig"; sourceTree = "<group>"; };
 		3C7AAB86431E6F1650B33617 /* Pods_OTPGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BD59FCBF22F1912702C15D9 /* Pods-OTPGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPGenerator.debug.xcconfig"; path = "../../MainApp/Pods/Target Support Files/Pods-OTPGenerator/Pods-OTPGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD59FCBF22F1912702C15D9 /* Pods-OTPGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPGenerator.debug.xcconfig"; path = "Target Support Files/Pods-OTPGenerator/Pods-OTPGenerator.debug.xcconfig"; sourceTree = "<group>"; };
 		63631AB0255AD4340005E1B4 /* OTPGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPGenerator.swift; sourceTree = "<group>"; };
 		6370B4B6255B214800A9F396 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		6370B4B7255B214800A9F396 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
@@ -69,9 +69,7 @@
 		638BF2F6255AD11900E1F4D4 = {
 			isa = PBXGroup;
 			children = (
-				6370B4BB255B215D00A9F396 /* Services */,
-				6370B4B5255B214800A9F396 /* Models */,
-				638BF302255AD11900E1F4D4 /* OTPGenerator */,
+				C1854EE9255DF0D600799983 /* Main */,
 				638BF301255AD11900E1F4D4 /* Products */,
 				2642CDE13F4A82D9471A5084 /* Pods */,
 				C2AC54C808FBA27266EBA0D0 /* Frameworks */,
@@ -94,6 +92,16 @@
 				63631AB0255AD4340005E1B4 /* OTPGenerator.swift */,
 			);
 			path = OTPGenerator;
+			sourceTree = "<group>";
+		};
+		C1854EE9255DF0D600799983 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6370B4BB255B215D00A9F396 /* Services */,
+				6370B4B5255B214800A9F396 /* Models */,
+				638BF302255AD11900E1F4D4 /* OTPGenerator */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		C2AC54C808FBA27266EBA0D0 /* Frameworks */ = {

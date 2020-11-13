@@ -36,7 +36,7 @@ public class OTPGenerator {
 
 //Services
 extension OTPGenerator {
-    public func startActivation(completion: ((_ secretDecript: String) -> Void)?) {
+    public func startActivation(completion: ((_ secretDecript: String?) -> Void)?) {
         let customer = Customer()
         customer.customer_id = self.userId
         customer.device_id = self.device_id
@@ -48,7 +48,9 @@ extension OTPGenerator {
         customer.registration?.app_version = self.app_version
         
         RegistrationService.registrationStart(customer: customer, completion: { [weak self, completion] baseResponse in
-            guard let self = self else { return }
+            guard let self = self else {
+                return
+            }
             let secret = baseResponse.secret ?? ""
 
             if let secretDecript = self.getDecrypt(base64Encoded: secret) {
@@ -58,6 +60,8 @@ extension OTPGenerator {
                     self.finishActivation(token: token, completion: { [completion] isValid in
                         if isValid {
                             completion?(secretDecript)
+                        } else {
+                            completion?(nil)
                         }
                     })
                 }
