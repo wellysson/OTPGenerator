@@ -69,7 +69,7 @@
 		638BF2F6255AD11900E1F4D4 = {
 			isa = PBXGroup;
 			children = (
-				C1854EE9255DF0D600799983 /* Main */,
+				638BF302255AD11900E1F4D4 /* OTPGenerator */,
 				638BF301255AD11900E1F4D4 /* Products */,
 				2642CDE13F4A82D9471A5084 /* Pods */,
 				C2AC54C808FBA27266EBA0D0 /* Frameworks */,
@@ -87,21 +87,21 @@
 		638BF302255AD11900E1F4D4 /* OTPGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				C1F1572B255EAAC3006A2225 /* Business */,
+				6370B4BB255B215D00A9F396 /* Services */,
+				6370B4B5255B214800A9F396 /* Models */,
 				638BF303255AD11900E1F4D4 /* OTPGenerator.h */,
 				638BF304255AD11900E1F4D4 /* Info.plist */,
-				63631AB0255AD4340005E1B4 /* OTPGenerator.swift */,
 			);
 			path = OTPGenerator;
 			sourceTree = "<group>";
 		};
-		C1854EE9255DF0D600799983 /* Main */ = {
+		C1F1572B255EAAC3006A2225 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				6370B4BB255B215D00A9F396 /* Services */,
-				6370B4B5255B214800A9F396 /* Models */,
-				638BF302255AD11900E1F4D4 /* OTPGenerator */,
+				63631AB0255AD4340005E1B4 /* OTPGenerator.swift */,
 			);
-			path = Main;
+			path = Business;
 			sourceTree = "<group>";
 		};
 		C2AC54C808FBA27266EBA0D0 /* Frameworks */ = {
